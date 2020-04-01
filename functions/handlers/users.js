@@ -48,7 +48,7 @@ exports.signup = (req, res) => {
          return db.doc(`/users/${newUser.handle}`).set(userCredentials);
      })
      .then(() => {
-        return res.status(201).json({token});
+        return res.status(201).json({token, message: "Successful sign up"});
      })
      .catch((err) => {
          console.error(err);
