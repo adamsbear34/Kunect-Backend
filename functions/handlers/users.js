@@ -78,7 +78,7 @@ exports.login = (req, res) => {
           return data.user.getIdToken();
       })
       .then(token => {
-          return res.json({token});
+          return res.json({token, message: "Logged in successfully"});
       })
       .catch(err => {
           console.error(err);
