@@ -1,6 +1,6 @@
 # Kunekt-API 
 
-API written for the Kunect android application based on Firebase cloud function. This api was build with Node JS/Express. 
+API written for the [Kunekt](https://github.com/adamsbear34/Kunect) android application based on Firebase cloud function. This api was build with Node JS/Express. 
 
 
 # Contributors
